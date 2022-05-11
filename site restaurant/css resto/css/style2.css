@@ -1,0 +1,180 @@
+/*définit la façon dont la hauteur et la largeur totale d'un élément*/
+* {
+    box-sizing:border-box;
+    }
+    /*font-family désigne la police d'écriture*/
+    body.acceuil {
+        font-size: 16px;
+        color: rgba(201, 25, 25, 0.87);
+        font-family: "montserrat", sans-serif;
+        line-height: 1.8;
+        margin: 0;
+    }
+    
+    .topbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right:0;
+        width: 100%;
+        background: rgba(165, 12, 116, 0.726) ;
+        padding: 30px;
+    }
+    
+    .topbar nav {
+        float: right;
+    }
+    
+    .topbar nav a{
+        color: #d6d6d6;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 0 53px;
+    }
+    
+    .topbar nav a:hover, .topbar nav a.active {
+        color: rgb(153, 27, 27);
+    }
+    
+    .topbar .social {
+        float: right;
+    }
+    
+    .social a {
+    padding: 12px;
+    opacity: 5;
+    }
+    
+    .social a:hover {
+        opacity: 3;
+    }
+    
+    .banniere {
+        height: 427;
+        background: no-repeat center center / cover  url("img/header.jpg");
+    }
+    .titreresto {
+        margin-left: auto;
+        margin-right: auto;
+        width: 6em;
+        font-family: cursive;
+        font-size: 2.2em;
+        color: rgba(22, 22, 156, 0.548);
+    }
+    
+    .presentation {
+        text-align: center;
+        font: italic 1.2em "Fira Sans",;
+        color:rgb(31, 143, 143);
+    }
+    
+    .alerteconfi {
+        text-align: center;
+        font: italic 1.2em "Fira Sans", serif;
+        color:rgb(223, 26, 26);   
+    }
+    
+    
+    /*main contenu majoritaire*/
+    .main {
+        float: left;
+        background: rgb(179, 46, 46);
+        width: calc(100%-375px);
+        color:#0f0fb6;
+        text-align: center;
+    }
+    
+    /*pied de page*/
+    .footer {
+        clear: both;
+    }
+    
+    .reception {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 1;
+    }
+    
+    /*Positonnement maps*/
+    .maps {
+    /*Lorsque des éléments se chevauchent*/
+        z-index: 1;
+        opacity: 0.9;
+        width: 50%;
+        margin: 0 auto;  
+    }
+    
+    /*quadrillage tableaux*/
+    
+    
+    /*en-tete tableaux la carte*/
+    thead,
+    tfoot {
+        background-color: rgb(155, 25, 116);
+        color: #fff;
+    
+    }
+    
+    table,
+    td, th,tr,tbody {
+        border: 1px solid rgb(180, 20, 167);
+        text-align: center;
+        box-shadow: 0 5px 50px rgba(0, 0, 0, 0.15);
+        cursor: pointer;
+        margin-left: 220px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .tableauxtapas {
+    top: 20%;
+    width: 50%;
+    border: 1px solid rgb(170, 39, 159);
+        text-align: center;
+        box-shadow: 0 5px 50px rgba(156, 29, 146, 0.15);
+        cursor: pointer;
+        margin-left: 220px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    /*Formulaire contact*/
+    form {
+        width: 50%;
+        margin:  auto;
+        
+    }
+    
+    label, input {
+        display: table-cell;
+        margin-bottom: 5px;
+    }
+    
+    .contacttxt {
+        width: 50%;
+        margin: 0 auto;
+        border: 1px solid rgb(7, 56, 85);  
+    }
+    
+    /* pageMENU*/
+    .menu2 {
+            text-align: center;
+            font: italic 1.2em "Fira Sans", serif;   
+            color: rgb(33, 164, 168);
+    }
+    
+    .menu3 {
+    text-align: center;
+    font: italic 1.2em "Fira Sans", serif;
+    color: rgb(33, 164, 168); 
+    }
+    
+    .menu4 {
+        text-align: center;
+        font: italic 1.2em "Fira Sans", serif; 
+        color: rgb(33, 164, 168);
+    }
+    

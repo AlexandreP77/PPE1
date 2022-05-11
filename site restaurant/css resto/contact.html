@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeBonVivant, Nous contacter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="topbar">
+        <nav>
+            <!--destination du lien-->   
+            <a href="acceuil.html"class>Acceuil</a>
+            <a href="lacarte.html">La carte</a>
+            <a href="menu.html">Menus</a>
+            <a href="contact.html">Contact</a>
+            <a href="noustrouver.html">Nous Trouver</a>
+        </nav>
+
+        <!--conteneur générique qui permet d'organiser le contenu-->  
+        <div class="sociale">
+            <a href="https://www.facebook.com/"target="_blank"><img src="img/facebook.png" alt="logo"></a> 
+            <a href="https://www.facebook.com/" ><span id="facebook"></span></a>
+            <a href="https://www.twitter.com/"target="_blank"><img src="img/twitter.png" alt="logo"></a>
+            <a href="https://www.twitter.com/"><span id="twitter"></span></a>
+        </div>
+    
+        <button onclick="document.getElementById('css').href='css/style1.css';">Style</button>
+        <button onclick="document.getElementById('css').href='css/style2.css';">Style 2</button>
+        <link id="css" rel="stylesheet" type="text/css" href="css/style.css"/>
+    </header>
+
+    <div class="banniere"></div>
+        <aside class="sidebar">
+        <h4 class="sidebar-title"></h4>
+        </aside> 
+    </div>
+
+    <div class="banniere">
+        <img src="img/header.jpg">
+    </div>
+
+        <form action="contact">
+            <fieldset class="contacttxt">
+                <legend>Nous contacter</legend>
+
+            <div>
+                <label for="emailinput">Email</label>
+                <input type="text" name="email" id="emailinput" placeholder="contact" required>
+            </div>
+
+            <div>
+                <label for="nominput">Nom</label>
+                <input type="text" name="nom" id="nominput">
+            </div>   
+
+            <div>                
+                <label for="prenominput">Prénom</label>
+                <input type="text" name="prenom" id="prenominput">
+            </div>
+
+            <div>                
+                <label for="telephoneinput">Téléphone</label>
+                <input type="text" name="telephone" id="telephoneinput">
+            </div>
+
+            <div>                
+                <label for="adresseinput">Adresse</label>
+                <input type="text" name="adresse" id="adresseinput">
+            </div>
+
+            <div>                
+                <label for="villeinput">Ville</label>
+                <input type="text" name="ville" id="villeinput">
+            </div>
+
+            <label>Sexe:</label>
+            
+            <div>   
+                <label for="masculin">Masculin</label>            
+                <input type="radio" name="sexe" id="masculin">
+            </div>
+
+            <div>      
+                <label for="feminin">Féminin</label>          
+                <input type="radio" name="sexe" id="feminin">
+            </div>
+        
+            <div>
+                <label for="message"></label>
+                <textarea name="message" id="message" cols="30" rows="10">Votre message</textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="envoyer">
+            </div>
+
+
+
+            </fieldset>
+        </form>
+</body>
+</html>
+
